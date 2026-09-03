@@ -92,9 +92,7 @@ Portable Mode changes where data is stored; it does not encrypt the database by 
 
 ## Database Security
 
-Database Security in Settings can convert the local database to an encrypted SQLCipher database. Once protected, the password is required when Hash Silo starts or after the database is locked.
-
-The database password is never stored & cannot be recovered. Database encryption protects closed database files at rest, but it does not protect information displayed by an unlocked session, copied to the clipboard, exported to a file, or observed by software running as the same user.
+Database Security in Settings can convert the local database to an encrypted SQLCipher database. Once protected, the password is required when Hash Silo starts or after the database is locked. The database password is never stored & cannot be recovered (although the hash can be extracted using `unhash sqlcipher` heheh). Database encryption protects closed database files at rest, but it does not protect information displayed by an unlocked session, copied to the clipboard, exported to a file, or observed by software running as the same user.
 
 ## Security Notes
 
