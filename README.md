@@ -11,7 +11,7 @@ All hashing and verification runs on the local machine. Hash Silo does not acces
 
 ## Highlights
 
-- 515 registered Hashcat-compatible modes
+- 518 registered Hashcat-compatible modes
 - Password verification & target generation where supported by the selected format
 - Hash-type detection with all structurally compatible matches shown when a target is ambiguous
 - Text and file-backed targets
