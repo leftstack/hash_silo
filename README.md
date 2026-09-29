@@ -5,15 +5,15 @@
 
 </div>
 
-Hash Silo is a local password-hash utility for testing candidate passwords & generating compatible targets. It supports 518 Hashcat-compatible modes across common operating-system credentials, archives, encrypted volumes, password managers, databases, wallets, network authentication formats, and more.
+Hash Silo is a local password-hash utility for testing candidate passwords & generating compatible targets. It supports 533 Hashcat-compatible modes across common operating-system credentials, archives, encrypted volumes, password managers, databases, wallets, network authentication formats, and more.
 
 All hashing and verification runs on the local machine. Hash Silo does not access the network or send usage data anywhere off of the local machine.
 
 ## Highlights
 
-- 518 registered Hashcat-compatible modes
+- 533 registered Hashcat-compatible modes
 - Password verification & target generation where supported by the selected format
-- Hash-type detection with all structurally compatible matches shown when a target is ambiguous
+- Hash-type detection with a choice dialog when multiple modes match
 - Text and file-backed targets
 - Username-aware formats when the selected mode requires one
 - Reusable profiles with isolated targets & password-attempt history
@@ -61,7 +61,7 @@ SQLCipher and its cryptographic dependencies are bundled with release builds, so
 4. Enter a candidate password and select **Try Password**.
 5. Review the result and password-attempt history.
 
-Hash-type detection is structural. Some target shapes are shared by multiple modes, so Hash Silo reports every compatible candidate rather than guessing when a result is ambiguous.
+Hash-type detection is structural. When multiple modes match, a dialog lists each compatible type so you can choose one or cancel.
 
 ## Generate a Target
 
