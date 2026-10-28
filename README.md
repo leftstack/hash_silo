@@ -23,7 +23,7 @@ All hashing and verification runs on the local machine. Hash Silo does not acces
 - Installed & portable data-storage modes
 - Light & dark desktop themes with optional notification-area support
 
-![screenshot](https://github.com/leftstack/hash_silo/blob/main/hash_silo_ui.png)
+<img width="1579" height="1279" alt="Image" src="https://github.com/leftstack/hash_silo/blob/main/hash_silo.svg" />
 
 ## How It Works
 
